@@ -3,7 +3,7 @@ import java.util.Scanner;
 class first{
     public static void main(String s[]){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter any number: ");
+        System.out.print("Enter number: ") ;
         int n = sc.nextInt();
         int ans = evenOdd.checker(n);
         if(ans==0){
